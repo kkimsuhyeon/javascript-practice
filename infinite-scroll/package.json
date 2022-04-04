@@ -1,0 +1,17 @@
+{
+  "name": "infinite-scroll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "start": "parcel watch index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.4",
+    "uuid": "^8.3.2"
+  }
+}
