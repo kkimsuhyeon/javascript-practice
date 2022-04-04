@@ -1,0 +1,15 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kkimsuhyeon/javascript-practice.git",
+  "author": "kkimsuhyeon <wzxy2002@naver.com>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "infinite-scroll",
+    "scroll-spy",
+    "dark-mode",
+    "SPA"
+  ]
+}
