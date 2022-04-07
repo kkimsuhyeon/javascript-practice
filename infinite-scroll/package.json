@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": "true",
   "scripts": {
-    "start": "parcel watch index.html"
+    "start": "parcel index.html watch "
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"

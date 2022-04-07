@@ -19,7 +19,7 @@ const listBuilder = (page) => {
 };
 
 const getList = (page = 0) => {
-  if (list[page]) list[page] = listBuilder(page);
+  if (!list[page]) list[page] = listBuilder(page);
   return list[page];
 };
 

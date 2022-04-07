@@ -7,4 +7,27 @@ const randomTimer =
     setTimeout(() => resolve(func(...args)), getRandomSeconds());
   };
 
-const dummyFetcher = (method, args) => new Promise(randomTimer(method, args));
+export const dummyFetcher = (method, args) =>
+  new Promise(randomTimer(method, args));
+
+export const throttle = (callback, second) => {
+  let throttled = false;
+
+  return (...args) => {
+    if (throttled) return;
+    throttled = true;
+    setTimeout(() => {
+      callback(...args);
+      throttled = false;
+    }, second);
+  };
+};
+
+export const debounce = (callback, second) => {
+  let timeId = null;
+
+  return (...args) => {
+    clearTimeout(timeId);
+    timeId = setTimeout(() => callback(...args), second);
+  };
+};
