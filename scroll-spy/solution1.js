@@ -68,3 +68,5 @@ $nav.addEventListener("click", (e) => {
 
 // 요소의 절대좌표 구하는 방법
 // window.pageYOffset + element.getBoundingClientRect().top
+// window.pageYOffset : 스크롤이 지금 얼마나 내려가 있는지 알려줌
+// element.getBoundingClientRect().top : 현재 뷰포트 기준으로 위에서 얼마나 떨어져있는지
