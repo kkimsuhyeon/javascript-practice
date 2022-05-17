@@ -10,6 +10,7 @@
     "infinite-scroll",
     "scroll-spy",
     "dark-mode",
-    "SPA"
+    "SPA",
+    "stopwatch"
   ]
 }
